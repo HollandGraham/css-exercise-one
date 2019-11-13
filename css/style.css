@@ -1,25 +1,4 @@
-body {
-	line-height: 1;
-}
 
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 body {
   font-size: 14px;
@@ -43,7 +22,7 @@ h1 {
   font-size: 2em;
 }
 
-.example {
+.example, h3 {
   padding-top: 30px;
   text-align: center;
 }
@@ -55,13 +34,10 @@ h3 {
 .element {
   background-color: green;
   height: 100px;
-  margin: 10px, 0;
+  margin: 10px 0;
   width: 100%;
 }
 /* last 3 elements */
 .purple {
   background-color: purple;
-  height: 100px;
-  margin: 10px, 0;
-  width: 100%;
 }
